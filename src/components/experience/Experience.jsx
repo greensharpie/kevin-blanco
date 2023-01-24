@@ -3,13 +3,14 @@ import './experience.css'
 import { DiHtml5, DiCss3, DiJavascript, DiReact, DiBootstrap } from 'react-icons/di';
 import { RiVuejsFill } from 'react-icons/ri';
 import {
-  SiDjango,
   SiPostgresql,
   SiMongodb,
   SiExpress,
   SiTailwindcss,
 } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
+import { MdOutlineLibraryBooks } from 'react-icons/md';
+
 const Experience = () => {
   return (
     <section id='experience'>
@@ -51,7 +52,29 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
-          
+        <h3>Backend Development</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+              <FaNodeJs/>
+              <h4>Node.js</h4>
+            </article>
+            <article className='experience__details'>
+              <SiExpress/>
+              <h4>Express.j s</h4>
+            </article>
+            <article className='experience__details'>
+              <SiPostgresql/>
+              <h4>PostgreSQL</h4>
+            </article>
+            <article className='experience__details'>
+              <SiMongodb/>
+              <h4>MongoDB</h4>
+            </article>
+            <article className='experience__details'>
+              <MdOutlineLibraryBooks/>
+              <h4>Mongoose</h4>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -59,3 +82,5 @@ const Experience = () => {
 }
 
 export default Experience
+
+
