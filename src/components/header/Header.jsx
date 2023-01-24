@@ -10,6 +10,11 @@ const Header = () => {
         <h1>Kevin Blanco</h1>
         <h5>and I'm a Full-Stack Software Engineer</h5>
         <CallToAction />
+        <div className='me'>
+          <img src='' alt='me' />
+        </div>
+
+        <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )
