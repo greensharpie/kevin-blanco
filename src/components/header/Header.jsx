@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CallToAction from './CallToAction'
+import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
         <h1>Kevin Blanco</h1>
         <h5>and I'm a Full-Stack Software Engineer</h5>
         <CallToAction />
+        <HeaderSocials />
         <div className='me'>
           <img src='' alt='me' />
         </div>
