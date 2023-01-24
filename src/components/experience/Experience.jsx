@@ -22,31 +22,45 @@ const Experience = () => {
           <div className='experience__content'>
             <article className='experience__details'>
               <DiHtml5/>
+              <div>
               <h4>HTML</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <DiReact/>
+              <div>
               <h4>React.js</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <DiJavascript/>
+              <div>
               <h4>JavaScript</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <RiVuejsFill/>
+              <div>
               <h4>Vue.js</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <DiCss3/>
+              <div>
               <h4>CSS</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <SiTailwindcss/>
+              <div>
               <h4>TailwindCSS</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <DiBootstrap/>
+              <div>
               <h4>Bootstrap</h4>
+              </div>
             </article>
           </div>
         </div>
@@ -56,23 +70,33 @@ const Experience = () => {
           <div className='experience__content'>
             <article className='experience__details'>
               <FaNodeJs/>
+              <div>
               <h4>Node.js</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <SiExpress/>
-              <h4>Express.j s</h4>
+              <div>
+              <h4>Express.js</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <SiPostgresql/>
+              <div>
               <h4>PostgreSQL</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <SiMongodb/>
+              <div>
               <h4>MongoDB</h4>
+              </div>
             </article>
             <article className='experience__details'>
               <MdOutlineLibraryBooks/>
+              <div>
               <h4>Mongoose</h4>
+              </div>
             </article>
           </div>
         </div>
