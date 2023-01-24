@@ -21,43 +21,43 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
-              <DiHtml5/>
+              <DiHtml5 className='experience__details-icon'/>
               <div>
               <h4>HTML</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <DiReact/>
+              <DiReact className='experience__details-icon'/>
               <div>
               <h4>React.js</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <DiJavascript/>
+              <DiJavascript className='experience__details-icon'/>
               <div>
               <h4>JavaScript</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <RiVuejsFill/>
+              <RiVuejsFill className='experience__details-icon'/>
               <div>
               <h4>Vue.js</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <DiCss3/>
+              <DiCss3 className='experience__details-icon'/>
               <div>
               <h4>CSS</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <SiTailwindcss/>
+              <SiTailwindcss className='experience__details-icon'/>
               <div>
               <h4>TailwindCSS</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <DiBootstrap/>
+              <DiBootstrap className='experience__details-icon'/>
               <div>
               <h4>Bootstrap</h4>
               </div>
@@ -69,33 +69,33 @@ const Experience = () => {
         <h3>Backend Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
-              <FaNodeJs/>
+              <FaNodeJs className='experience__details-icon'/>
               <div>
               <h4>Node.js</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <SiExpress/>
+              <SiExpress className='experience__details-icon'/>
               <div>
               <h4>Express.js</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <SiPostgresql/>
+              <SiPostgresql className='experience__details-icon'/>
               <div>
               <h4>PostgreSQL</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <SiMongodb/>
+              <SiMongodb className='experience__details-icon'/>
               <div>
               <h4>MongoDB</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <MdOutlineLibraryBooks/>
+              <MdOutlineLibraryBooks className='experience__details-icon'/>
               <div>
-              <h4>Mongoose</h4>
+              <h4>Mongoose</h4> 
               </div>
             </article>
           </div>
