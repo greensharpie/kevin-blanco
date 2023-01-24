@@ -15,11 +15,11 @@ const About = () => {
         </div>
 
         <div className='about__content'>
-          <div className='about__cards'>
+          {/* <div className='about__cards'>
             <article className='about__card'>
               <h5>Experience</h5>
             </article> 
-          </div>
+          </div> */}
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reprehenderit deserunt quam id quis ipsa, esse dolor facilis voluptatum, aliquam sit aut, animi consequatur molestiae? Maxime nulla distinctio natus architecto.</p>
           <a href='#contact' className='btn btn-primary'>Let's Chat!</a>
         </div>

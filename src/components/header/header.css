@@ -29,7 +29,7 @@ header{
 
 .header__socials::after{
   content: '';
-  width: 1px;
+  width: 2px;
   height: 4rem;
   background: var(--color-primary);
 }
