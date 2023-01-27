@@ -9,10 +9,10 @@ const Footer = () => {
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
-        <li><a href='#'>About</a></li>
-        <li><a href='#'>Experience</a></li>
-        <li><a href='#'>Portfolio</a></li>
-        <li><a href='#'>Contact</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#experience'>Experience</a></li>
+        <li><a href='#portfolio'>Portfolio</a></li>
+        <li><a href='#contact'>Contact</a></li>
       </ul>
 
       <div className="footer__socials">
@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Kevin Blanco 2022.</small>
+        <small>&copy; Kevin Blanco 2023.</small>
         <div>
           <small>
             Design inspired by Egator's{' '}
