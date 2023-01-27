@@ -4,9 +4,9 @@
   gap: 2.5rem;
 }
 
-.portfolio__items {
+.portfolio__item {
   background: var(--color-bg-variant);
-  padding: 1.3rem;
+  padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
