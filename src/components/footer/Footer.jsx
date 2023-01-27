@@ -19,6 +19,24 @@ const Footer = () => {
         <a href='https://www.linkedin.com/in/kevinjblanco/'><BsLinkedin/></a>
         <a href='https://github.com/greensharpie'><BsGithub/></a>
       </div>
+
+      <div className="footer__copyright">
+        <small>&copy; Kevin Blanco 2022.</small>
+        <div>
+          <small>
+            Design inspired by Egator's Example{' '}
+            <a
+              href='https://egattor.com/rp2447/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='credit'
+            >
+              {' '}
+              React Portfolio
+            </a>
+          </small>
+        </div>
+      </div>
     </footer>
   )
 }
