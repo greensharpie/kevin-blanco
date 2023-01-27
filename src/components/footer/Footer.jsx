@@ -24,7 +24,7 @@ const Footer = () => {
         <small>&copy; Kevin Blanco 2022.</small>
         <div>
           <small>
-            Design inspired by Egator's Example{' '}
+            Design inspired by Egator's{' '}
             <a
               href='https://egattor.com/rp2447/'
               target='_blank'
