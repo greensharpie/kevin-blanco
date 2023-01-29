@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import CallToAction from './CallToAction'
 import HeaderSocials from './HeaderSocials'
+import PFP from '../../assets/PFP1.png'
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         <CallToAction />
         <HeaderSocials />
         <div className='me'>
-          <img src='' alt='me' />
+          <img src={PFP} alt='me' />
         </div>
 
         <a href='#portfolio' className='scroll__down'>Portfolio</a>
