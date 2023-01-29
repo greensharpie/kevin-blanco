@@ -40,8 +40,8 @@ const Contact = () => {
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Phone</h4>
-            {/* <h5>+123456789</h5> */}
-            <a href='' target='_blank'>Ring Me</a>
+            {/* <h5>7043120465</h5> */}
+            <a href='tel:7043120465' target='_blank'>Ring Me</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
