@@ -80,6 +80,10 @@ header{
   .me {
     width: 40vh;
   }
+  .header__socials {
+    left: 4rem;
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 600px) {

@@ -19,9 +19,16 @@
 }
 
 .portfolio__item-image {
+  margin-bottom: 1rem;
   border-radius: 1.5rem;
   overflow: hidden;
 }
+
+/* .portfolio__image { */
+  /* height: auto; */
+  /* object-fit: contain; */
+  /* background-color: black; */
+/* } */
 
 .portfolio__item h3{
   margin: 1.2rem 0 2rem;
@@ -31,6 +38,13 @@
   display: flex;
   gap: 1rem;  
   margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+h2 {
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -44,5 +58,9 @@
   .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .portfolio__item {
+    margin-bottom: 2rem;
   }
 }
