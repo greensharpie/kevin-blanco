@@ -14,7 +14,7 @@ const Header = () => {
         <CallToAction />
         <HeaderSocials />
         <div className='me'>
-          <img src={PFP} alt='me' />
+          <img src={PFP} alt='me' className='pfp'/>
         </div>
 
         <a href='#portfolio' className='scroll__down'>Portfolio</a>
