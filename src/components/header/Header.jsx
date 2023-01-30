@@ -3,7 +3,6 @@ import './header.css'
 import CallToAction from './CallToAction'
 import HeaderSocials from './HeaderSocials'
 import PFP from '../../assets/PFP1.png'
-// import PFP4 from '../../assets/PFP4.png'
 
 const Header = () => {
   return (

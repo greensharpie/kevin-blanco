@@ -28,19 +28,16 @@ const Contact = () => {
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            {/* <h5>kevinjblanco@gmail.com</h5> */}
             <a href='mailto:kevinjblanco@gmail.com' target='_blank' rel='noopener noreferrer'>Send a message</a>
           </article>
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
-            {/* <h5>Let's Connect</h5> */}
             <a href='https://www.linkedin.com/in/kevinjblanco/' target='_blank' rel='noopener noreferrer'>Let's Connect</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Phone</h4>
-            {/* <h5>7043120465</h5> */}
             <a href='tel:7043120465' target='_blank' rel='noopener noreferrer'>Ring Me</a>
           </article>
         </div>
