@@ -21,19 +21,11 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Kevin Blanco 2023.</small>
+        <small>&copy; Kevin Blanco 2023.</small>{' '}
+        <small><a href='https://github.com/greensharpie/kevin-blanco' target='_blank'>Portfolio Repo</a></small>
         <div>
           <small>
-            Design inspired by Egator's{' '}
-            <a
-              href='https://egattor.com/rp2447/'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='credit'
-            >
-              {' '}
-              Portfolio
-            </a>
+            Design inspired by Egator's Portfolio
           </small>
         </div>
       </div>
