@@ -32,7 +32,7 @@ const Footer = () => {
               className='credit'
             >
               {' '}
-              React Portfolio
+              Portfolio
             </a>
           </small>
         </div>
