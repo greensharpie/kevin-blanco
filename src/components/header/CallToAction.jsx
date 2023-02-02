@@ -4,7 +4,7 @@ import React from 'react'
 export default function CallToAction () {
   return (
     <div className='CallToAction'>
-      <a href='https://docs.google.com/document/d/158OY3dh0KP9tswKAhdnoak3ofxrTDQNVd-5S3F_FnlQ/edit?usp=sharing' target='_blank' className='btn'>View Resume</a>
+      <a href='https://drive.google.com/file/d/1QgMt5UWSGclridt_7_N00MI5UoWaixOv/view?usp=sharing' target='_blank' className='btn'>View Resume</a>
       <a href='#contact' className='btn btn-primary'>Let's Chat</a>
     </div>
   )
