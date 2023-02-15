@@ -65,4 +65,12 @@ input, textarea {
     padding: 0 2rem 0 2rem;
   }
 
+  .contact__option {
+    margin-left: 4rem;
+  }
+
+  .form {
+    margin-left: 4rem;
+  }
+
 }

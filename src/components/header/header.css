@@ -75,7 +75,7 @@ header{
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 80vh;
   }
   .me {
     width: 40vh;
@@ -89,6 +89,7 @@ header{
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+    width: 55vh;
   }
   .header__socials, .scroll__down{
     display: none;

@@ -31,7 +31,7 @@
 /* } */
 
 .portfolio__item h3{
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta {
@@ -45,6 +45,13 @@ h5 {
 }
 h2 {
   font-size: 3rem;
+}
+
+.stack {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -62,5 +69,8 @@ h2 {
 
   .portfolio__item {
     margin-bottom: 2rem;
+    width: 100%;
+    margin-left: 1rem;
+    padding: 3rem;
   }
 }

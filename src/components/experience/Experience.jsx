@@ -14,8 +14,10 @@ import { MdOutlineLibraryBooks } from 'react-icons/md';
 const Experience = () => {
   return (
     <section id='experience'>
+      {/* <div className='experience__title'> */}
       <h5>Skills</h5>
       <h2>My Experience</h2>  
+      {/* </div> */}
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>

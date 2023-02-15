@@ -41,7 +41,7 @@ const Contact = () => {
             <a href='tel:7043120465' target='_blank' rel='noopener noreferrer'>Ring Me</a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className='form'>
           <input type='text' name='name' placeholder='Your Name'required/>
           <input type='email' name='email' placeholder='Your Email'required/>
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
