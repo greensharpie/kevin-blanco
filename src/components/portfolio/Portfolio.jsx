@@ -19,7 +19,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Tetris Replica',
-    stack: <> <DiHtml5/> <DiJavascript /> <DiCss3/> </>,
+    stack: <> <DiHtml5 /> <DiJavascript /> <DiCss3 /> </>,
     github: 'https://github.com/greensharpie/Tetris',
     demo: 'https://main.d28pdf8t2f2caq.amplifyapp.com/'
   },
@@ -27,7 +27,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Door Drop',
-    stack: <><SiPostgresql/> <SiExpress/> <DiReact/> <FaNodeJs/> <DiCss3/> </>,
+    stack: <><SiPostgresql /> <SiExpress /> <DiReact /> <FaNodeJs /> <DiCss3 /> </>,
     github: 'https://github.com/greensharpie/Door_Drop_Frontend',
     demo: 'https://main.djedseh58i37e.amplifyapp.com/'
   },
@@ -35,34 +35,34 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'ReVinyl',
-    stack: <><SiPostgresql/> <SiExpress/> <DiReact/> <FaNodeJs/> <DiCss3/> </>,
+    stack: <><SiPostgresql /> <SiExpress /> <DiReact /> <FaNodeJs /> <DiCss3 /> </>,
     github: 'https://github.com/mashbash2150/ReVinyl-Frontend',
     demo: 'https://revinyl-frontend.herokuapp.com/'
   },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Bookshelf',
+  //   stack: <><SiMongodb/> <SiExpress/> <DiReact/> <FaNodeJs/> <DiCss3/> </>,
+  //   github: 'https://github.com/greensharpie/BookShelf',
+  //   demo: 'https://bookshelf-crud.herokuapp.com/'
+  // },
   {
     id: 4,
-    image: IMG4,
-    title: 'Bookshelf',
-    stack: <><SiMongodb/> <SiExpress/> <DiReact/> <FaNodeJs/> <DiCss3/> </>,
-    github: 'https://github.com/greensharpie/BookShelf',
-    demo: 'https://bookshelf-crud.herokuapp.com/'
-  },
-  {
-    id: 5,
     image: IMG5,
     title: 'War - The Card Game',
-    stack: <> <DiHtml5/> <DiJavascript /> <DiCss3/> </>,
+    stack: <> <DiHtml5 /> <DiJavascript /> <DiCss3 /> </>,
     github: 'https://github.com/greensharpie/kevins-war-cardgame',
     demo: 'https://war-the-cardgame.surge.sh/'
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Coasterpedia',
-    stack: <><SiMongodb/> <SiExpress/> <DiReact/> <FaNodeJs/> <DiCss3/> </>,
-    github: 'https://github.com/julialima08/Coasterpedia',
-    demo: 'https://coasterpedia-app.herokuapp.com/'
-  },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Coasterpedia',
+  //   stack: <><SiMongodb/> <SiExpress/> <DiReact/> <FaNodeJs/> <DiCss3/> </>,
+  //   github: 'https://github.com/julialima08/Coasterpedia',
+  //   demo: 'https://coasterpedia-app.herokuapp.com/'
+  // },
 ]
 
 const Portfolio = () => {
@@ -73,19 +73,19 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, stack, github, demo}) => {
-            return(
-                  <article key={id} className='portfolio__item'>
-              <div className="portfolio__item-image">
-                <img className="portfolio__image" src={image} alt={title}/>
-              </div>
-              <h3>{title}</h3>
-              <div className='stack'>{stack}</div>
-              <div className="portfolio__item-cta">
-                <a href={github} className='btn'target='_blank' rel='noopener noreferrer'>GitHub</a>
-                <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live</a>
-              </div>
-            </article>
+          data.map(({ id, image, title, stack, github, demo }) => {
+            return (
+              <article key={id} className='portfolio__item'>
+                <div className="portfolio__item-image">
+                  <img className="portfolio__image" src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className='stack'>{stack}</div>
+                <div className="portfolio__item-cta">
+                  <a href={github} className='btn' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live</a>
+                </div>
+              </article>
             )
           })
         }
