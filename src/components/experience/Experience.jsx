@@ -16,88 +16,70 @@ const Experience = () => {
     <section id='experience'>
       {/* <div className='experience__title'> */}
       <h5>Skills</h5>
-      <h2>My Experience</h2>  
+      <h2>My Experience</h2>
       {/* </div> */}
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
-              <DiHtml5 className='experience__details-icon'/>
+              <DiHtml5 className='experience__details-icon' />
               <div>
-              <h4>HTML</h4>
+                <h4>TypeScript</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <DiReact className='experience__details-icon'/>
+              <DiJavascript className='experience__details-icon' />
               <div>
-              <h4>React.js</h4>
+                <h4>JavaScript</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <DiJavascript className='experience__details-icon'/>
+              <DiReact className='experience__details-icon' />
               <div>
-              <h4>JavaScript</h4>
+                <h4>React.js</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <RiVuejsFill className='experience__details-icon'/>
+              <RiVuejsFill className='experience__details-icon' />
               <div>
-              <h4>Vue.js</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <DiCss3 className='experience__details-icon'/>
-              <div>
-              <h4>CSS</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <SiTailwindcss className='experience__details-icon'/>
-              <div>
-              <h4>TailwindCSS</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <DiBootstrap className='experience__details-icon'/>
-              <div>
-              <h4>Bootstrap</h4>
+                <h4>React Native</h4>
               </div>
             </article>
           </div>
         </div>
 
         <div className="experience__backend">
-        <h3>Backend Development</h3>
+          <h3>Backend Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
-              <FaNodeJs className='experience__details-icon'/>
+              <FaNodeJs className='experience__details-icon' />
               <div>
-              <h4>Node.js</h4>
+                <h4>Node.js</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <SiExpress className='experience__details-icon'/>
+              <SiExpress className='experience__details-icon' />
               <div>
-              <h4>Express.js</h4>
+                <h4>Express.js</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <SiPostgresql className='experience__details-icon'/>
+              <SiPostgresql className='experience__details-icon' />
               <div>
-              <h4>PostgreSQL</h4>
+                <h4>PostgreSQL</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <SiMongodb className='experience__details-icon'/>
+              <SiMongodb className='experience__details-icon' />
               <div>
-              <h4>MongoDB</h4>
+                <h4>MongoDB</h4>
               </div>
             </article>
             <article className='experience__details'>
-              <MdOutlineLibraryBooks className='experience__details-icon'/>
+              <MdOutlineLibraryBooks className='experience__details-icon' />
               <div>
-              <h4>Mongoose</h4> 
+                <h4>Mongoose</h4>
               </div>
             </article>
           </div>
